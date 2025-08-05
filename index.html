@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sudoku Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Sudoku Game</h1>
+  <div class="sudoku-container">
+    <table class="sudoku-grid">
+      <!-- Generate 9 rows -->
+      <!-- Each row has 9 cells (input elements) -->
+      <!-- You can later use JS to generate this dynamically -->
+      <tbody>
+        <!-- Repeat this <tr> 9 times -->
+        <!-- Each <td> has an <input> -->
+        <!-- Add classes for styling borders -->
+        <!-- Example row below -->
+        <!-- You can copy and paste or generate with JavaScript -->
+        <!-- Loop for all 9 rows -->
+        <!-- Use class="thick-bottom" and "thick-right" for grid styling -->
+        <!-- This is row 1 -->
+        <tr>
+          <td><input type="text" maxlength="1"></td>
+          <td><input type="text" maxlength="1"></td>
+          <td class="thick-right"><input type="text" maxlength="1"></td>
+          <td><input type="text" maxlength="1"></td>
+          <td><input type="text" maxlength="1"></td>
+          <td class="thick-right"><input type="text" maxlength="1"></td>
+          <td><input type="text" maxlength="1"></td>
+          <td><input type="text" maxlength="1"></td>
+          <td><input type="text" maxlength="1"></td>
+        </tr>
+        <!-- Repeat above row 8 more times, adding thick-bottom to every third row -->
+      </tbody>
+    </table>
+    <button id="check">Check Puzzle</button>
+    <button id="solve">Solve Puzzle</button>
+    <button id="reset">Reset</button>
+  </div>
+
+  <!-- Later, you can include a script like -->
+  <!-- <script src="script.js"></script> -->
+</body>
+</html>
